@@ -1,10 +1,10 @@
-package com.reksoft.module1rest.controller;
+package com.reksoft.module1rest.controller.rest;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
-import com.reksoft.module1rest.service.UserService;
-import com.reksoft.module1rest.service.UserTaskService;
+import com.reksoft.module1rest.service.rest.UserService;
+import com.reksoft.module1rest.service.rest.UserTaskService;
 import com.reksoft.user.task.api.UserApi;
 import com.reksoft.user.task.api.model.AddUserTaskRequestDto;
 import com.reksoft.user.task.api.model.UpdateUserRequestDto;

@@ -1,15 +1,16 @@
-package com.reksoft.module1rest.service;
+package com.reksoft.module1rest.service.rest;
 
-import com.reksoft.module1rest.mapper.TaskMapper;
+import com.reksoft.module1rest.mapper.rest.TaskMapper;
 import com.reksoft.module1rest.persistance.model.TaskEntity;
 import com.reksoft.module1rest.persistance.model.UserEntity;
 import com.reksoft.module1rest.persistance.repository.TaskRepository;
 import com.reksoft.module1rest.persistance.repository.UserRepository;
-import com.reksoft.user.task.api.model.TaskDto;
+import com.reksoft.user.task.api.model.CreateTaskRequestDto;
 import com.reksoft.user.task.api.model.TaskResponseDto;
 import com.reksoft.user.task.api.model.UpdateTaskRequestDto;
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Optional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -33,8 +34,11 @@ public class TaskService {
         .toList();
   }
 
-  public TaskResponseDto save(TaskDto request) {
-    var taskEntity = taskRepository.save(taskMapper.map(request, LocalDate.now()));
+  public TaskResponseDto save(CreateTaskRequestDto request) {
+    var user = Optional.ofNullable(request.getUserId())
+        .map(userRepository::findById)
+        .orElse(null);
+    var taskEntity = taskRepository.save(taskMapper.map(request, user, LocalDate.now()));
     return taskMapper.map(taskEntity);
   }
 

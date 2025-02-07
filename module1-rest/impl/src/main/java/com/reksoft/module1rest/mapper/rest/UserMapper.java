@@ -1,5 +1,6 @@
-package com.reksoft.module1rest.mapper;
+package com.reksoft.module1rest.mapper.rest;
 
+import com.reksoft.module1rest.mapper.MapperConfig;
 import com.reksoft.module1rest.persistance.model.UserEntity;
 import com.reksoft.user.task.api.model.UserDto;
 import com.reksoft.user.task.api.model.UserResponseDto;

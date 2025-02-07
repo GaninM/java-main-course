@@ -1,13 +1,12 @@
-package com.reksoft.module1rest.controller;
+package com.reksoft.module1rest.controller.rest;
 
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
-import com.reksoft.module1rest.persistance.repository.TaskRepository;
-import com.reksoft.module1rest.service.TaskService;
+import com.reksoft.module1rest.service.rest.TaskService;
 import com.reksoft.user.task.api.TaskApi;
-import com.reksoft.user.task.api.model.TaskDto;
+import com.reksoft.user.task.api.model.CreateTaskRequestDto;
 import com.reksoft.user.task.api.model.TaskResponseDto;
 import com.reksoft.user.task.api.model.UpdateTaskRequestDto;
 import io.swagger.v3.oas.annotations.Operation;
@@ -29,7 +28,7 @@ public class TaskController implements TaskApi {
   private final TaskService taskService;
 
   @Override
-  public ResponseEntity<TaskResponseDto> createTask(TaskDto request) {
+  public ResponseEntity<TaskResponseDto> createTask(CreateTaskRequestDto request) {
     return ResponseEntity.status(HttpStatus.CREATED).body(taskService.save(request));
   }
 

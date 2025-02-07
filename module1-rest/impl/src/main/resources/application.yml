@@ -27,3 +27,8 @@ spring:
         format_sql: true
         show_sql: false
         ddl-auto: none
+
+logging:
+  level:
+    org.springframework.ws.client: TRACE
+    org.springframework.ws.server: TRACE

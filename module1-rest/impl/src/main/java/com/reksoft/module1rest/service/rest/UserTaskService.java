@@ -1,6 +1,6 @@
-package com.reksoft.module1rest.service;
+package com.reksoft.module1rest.service.rest;
 
-import com.reksoft.module1rest.mapper.UserMapper;
+import com.reksoft.module1rest.mapper.rest.UserMapper;
 import com.reksoft.module1rest.persistance.model.TaskEntity;
 import com.reksoft.module1rest.persistance.model.UserEntity;
 import com.reksoft.module1rest.persistance.repository.TaskRepository;

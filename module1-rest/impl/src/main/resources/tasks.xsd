@@ -1,0 +1,104 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://soap.example.com/tasks"
+           xmlns="http://soap.example.com/tasks"
+           elementFormDefault="qualified">
+
+    <xs:element name="getTaskRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getTaskResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="task" type="Task"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getAllTasksRequest">
+        <xs:complexType/>
+    </xs:element>
+
+    <xs:element name="getAllTasksResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="tasks" type="Task" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="createTaskRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="description" type="xs:string" minOccurs="0"/>
+                <xs:element name="deadLine" type="xs:date"/>
+                <xs:element name="userId" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="createTaskResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="task" type="Task"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="deleteTaskRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="taskId" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="deleteTaskResponse">
+        <xs:complexType/>
+    </xs:element>
+
+    <xs:element name="updateTaskRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:long"/>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="description" type="xs:string" minOccurs="0"/>
+                <xs:element name="deadLine" type="xs:date"/>
+                <xs:element name="userId" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="updateTaskResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="task" type="Task"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="Task">
+        <xs:sequence>
+            <xs:element name="id" type="xs:long"/>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="description" type="xs:string" minOccurs="0"/>
+            <xs:element name="deadLine" type="xs:date"/>
+            <xs:element name="user" type="User"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="User">
+        <xs:sequence>
+            <xs:element name="id" type="xs:long"/>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="surname" type="xs:string"/>
+            <xs:element name="mail" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

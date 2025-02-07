@@ -208,7 +208,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Task'
+              $ref: '#/components/schemas/CreateTaskRequest'
       responses:
         '201':
           description: Successful operation
@@ -448,6 +448,17 @@ components:
           type: string
           format: date
           description: Крайний срок выполнения задачи
+
+    CreateTaskRequest:
+      type: object
+      description: Запрос на обновление данных пользователя
+      properties:
+        userId:
+          type: integer
+          format: int64
+          description: ID пользователя
+      allOf:
+        - $ref: "#/components/schemas/Task"
 
     UpdateTaskRequest:
       type: object
