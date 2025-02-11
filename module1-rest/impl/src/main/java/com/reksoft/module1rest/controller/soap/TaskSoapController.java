@@ -15,7 +15,6 @@ import com.example.soap.tasks.UpdateTaskResponse;
 import com.reksoft.module1rest.service.soap.TaskSoapService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
@@ -30,7 +29,6 @@ public class TaskSoapController {
 
   @PayloadRoot(namespace = TASKS_NAMESPACE_URI, localPart = "getTaskRequest")
   @ResponsePayload
-  @Transactional
   public GetTaskResponse getTask(@RequestPayload GetTaskRequest request) {
     var response = new GetTaskResponse();
     response.setTask(taskService.findById(request.getId()));
@@ -39,7 +37,6 @@ public class TaskSoapController {
 
   @PayloadRoot(namespace = TASKS_NAMESPACE_URI, localPart = "getAllTasksRequest")
   @ResponsePayload
-  @Transactional
   public GetAllTasksResponse getAllTasks(@RequestPayload GetAllTasksRequest request) {
     var response = new GetAllTasksResponse();
     response.getTasks().addAll(taskService.findAll());
@@ -63,7 +60,6 @@ public class TaskSoapController {
 
   @PayloadRoot(namespace = TASKS_NAMESPACE_URI, localPart = "updateTaskRequest")
   @ResponsePayload
-  @Transactional
   public UpdateTaskResponse updateTask(@RequestPayload UpdateTaskRequest request) {
     var response = new UpdateTaskResponse();
     response.setTask(taskService.update(request));

@@ -6,7 +6,7 @@
 
   <parent>
     <groupId>com.reksoft</groupId>
-    <artifactId>user-task-api</artifactId>
+    <artifactId>user-task</artifactId>
     <version>${revision}</version>
   </parent>
 
@@ -15,7 +15,6 @@
 
   <properties>
     <config.dir>${project.parent.basedir}</config.dir>
-    <org.mapstruct.version>1.5.3.Final</org.mapstruct.version>
   </properties>
 
   <dependencies>
@@ -25,16 +24,22 @@
       <version>${revision}</version>
     </dependency>
 
+    <!--Spring-->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+
     <dependency>
       <groupId>org.mapstruct</groupId>
       <artifactId>mapstruct</artifactId>
       <version>${org.mapstruct.version}</version>
     </dependency>
-    <dependency>
-      <groupId>org.flywaydb</groupId>
-      <artifactId>flyway-maven-plugin</artifactId>
-      <version>11.3.1</version>
-    </dependency>
+
     <dependency>
       <groupId>org.springframework.hateoas</groupId>
       <artifactId>spring-hateoas</artifactId>
@@ -44,7 +49,7 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-ws</artifactId>
-      <version>1.4.7.RELEASE</version>
+      <version>${starter.ws.version}</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.ws</groupId>
@@ -53,7 +58,7 @@
     <dependency>
       <groupId>jakarta.xml.bind</groupId>
       <artifactId>jakarta.xml.bind-api</artifactId>
-      <version>4.0.2</version>
+      <version>${xml.bind-api.version}</version>
     </dependency>
     <dependency>
       <groupId>wsdl4j</groupId>
@@ -62,7 +67,42 @@
     <dependency>
       <groupId>org.glassfish.jaxb</groupId>
       <artifactId>jaxb-runtime</artifactId>
-      <version>4.0.2</version>
+      <version>${jaxb-runtime.version}</version>
+    </dependency>
+
+    <!--Database-->
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.flywaydb</groupId>
+      <artifactId>flyway-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.flywaydb</groupId>
+      <artifactId>flyway-database-postgresql</artifactId>
+      <version>${flyway-database-postgresql.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.flywaydb</groupId>
+      <artifactId>flyway-maven-plugin</artifactId>
+      <version>${flyway-maven-plugin.version}</version>
+    </dependency>
+
+    <!--Other-->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <optional>true</optional>
+    </dependency>
+
+    <!--Test-->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 

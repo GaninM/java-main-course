@@ -18,7 +18,6 @@ import com.reksoft.module1rest.service.soap.UserSoapService;
 import com.reksoft.module1rest.service.soap.UserTaskSoapService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
@@ -34,7 +33,6 @@ public class UserSoapController {
 
   @PayloadRoot(namespace = USERS_NAMESPACE_URI, localPart = "getUserRequest")
   @ResponsePayload
-  @Transactional
   public GetUserResponse getUser(@RequestPayload GetUserRequest request) {
     GetUserResponse response = new GetUserResponse();
     response.setUser(userService.findById(request.getId()));
@@ -43,7 +41,6 @@ public class UserSoapController {
 
   @PayloadRoot(namespace = USERS_NAMESPACE_URI, localPart = "getAllUsersRequest")
   @ResponsePayload
-  @Transactional
   public GetAllUsersResponse getAllUsers(@RequestPayload GetAllUsersRequest request) {
     GetAllUsersResponse response = new GetAllUsersResponse();
     response.getUsers().addAll(userService.findAll());
@@ -67,7 +64,6 @@ public class UserSoapController {
 
   @PayloadRoot(namespace = USERS_NAMESPACE_URI, localPart = "updateUserRequest")
   @ResponsePayload
-  @Transactional
   public UpdateUserResponse updateUser(@RequestPayload UpdateUserRequest request) {
     UpdateUserResponse response = new UpdateUserResponse();
     response.setUser(userService.update(request));
@@ -76,7 +72,6 @@ public class UserSoapController {
 
   @PayloadRoot(namespace = USERS_NAMESPACE_URI, localPart = "addTaskToUserRequest")
   @ResponsePayload
-  @Transactional
   public AddTaskToUserResponse addTaskToUser(@RequestPayload AddTaskToUserRequest request) {
     var response = new AddTaskToUserResponse();
     response.setUser(userTaskService.addTask(request));

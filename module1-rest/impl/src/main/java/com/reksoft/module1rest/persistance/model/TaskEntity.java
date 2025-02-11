@@ -39,6 +39,6 @@ public class TaskEntity {
   @Column(name = "dead_line")
   private LocalDate deadLine;
 
-  @ManyToOne(fetch = FetchType.LAZY)
+  @ManyToOne(fetch = FetchType.EAGER)
   private UserEntity user;
 }
