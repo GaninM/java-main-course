@@ -1,29 +1,27 @@
 # File Tree
+Создайте строковое представление иерархии каталогов по заданному пути.
 
-## Description
-Build a String representation of directory hierarchy under a given path  
+Подробнее:
 
-## Details
-Implement `tree` method in [FileTreeImpl](src/main/java/com/efimchick/ifmo/io/filetree/FileTreeImpl.java) class.
+- Реализуйте метод [tree](src/main/java/com/reksoft/filetree/FileTreeImpl.java) в классе FileTreeImpl (src/main/java/com/efimchick/ifmo/io/filetree/FileTreeImpl.java).
+- Входной параметр – это путь.
+- Если заданный путь не существует, верните Optional.empty().
+- Если заданный путь ссылается на файл, верните строку с его именем и размером следующим образом:
 
-Input parameter is a path.
+      some-file.txt 128 bytes
 
-If a given path *does not exist*, return an empty Optional.
 
-If a given path *refers to a file*, return a String with its name and size like this: 
-    
-    some-file.txt 128 bytes
-    
-IF a given path *refers to a directory*, return a String with its name, total size and its full hierarchy:
+- Если заданный путь ссылается на каталог, верните строку с его именем, общим размером и полной иерархией:
 
-    some-dir 100 bytes
-    ├─ some-inner-dir 50 bytes
-    │  ├─ some-file.txt 20 bytes    
-    │  └─ some-other-file.txt 30 bytes
-    └─ some-one-more-file.txt 50 bytes
-    
-- Use pseudo graphic symbols to format output.
-- Compute directory size as a sum of all its contents.
-- Sort content in following way:
-    - directories go first,
-    - directories and files are sorted in lexicographic order (case-insensitive).
+      some-dir 100 bytes
+      ├─ some-inner-dir 50 bytes
+      │  ├─ some-file.txt 20 bytes    
+      │  └─ some-other-file.txt 30 bytes
+      └─ some-one-more-file.txt 50 bytes
+
+
+- Используйте псевдографические символы для форматирования вывода.
+- Вычислите размер каталога как сумму всего его содержимого.
+- Сортировка содержимого осуществляется следующим образом:
+  - каталоги идут первыми;
+  - каталоги и файлы сортируются в лексикографическом порядке (без учета регистра).
