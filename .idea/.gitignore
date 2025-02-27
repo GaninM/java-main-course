@@ -10,3 +10,7 @@
 encodings.xml
 compiler.xml
 misc.xml
+=======
+.idea/compiler.xml
+/compiler.xml
+/gradle.xml
