@@ -1,4 +1,4 @@
-package com.reksoft.impl;
+package com.reksoft.impl.exception;
 
 public class BaseException extends RuntimeException {
 

@@ -9,6 +9,10 @@
     <file url="file://$PROJECT_DIR$/module10-generics/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/module11-reflection/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/module11-reflection/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module19-maven/api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module19-maven/db/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module19-maven/impl/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/module19-maven/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/module19-maven/src/main/resources" charset="UTF-8" />
   </component>
 </project>

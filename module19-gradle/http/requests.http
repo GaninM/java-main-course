@@ -1,0 +1,44 @@
+#Find by id
+GET http://localhost:8080/students/1
+accept: */*
+Content-Type: application/json
+
+###
+
+#Find all
+GET http://localhost:8080/students
+accept: */*
+Content-Type: application/json
+
+###
+
+#Save
+POST http://localhost:8080/students
+accept: */*
+Content-Type: application/json
+
+{
+  "name": "New",
+  "surname": "New",
+  "age": 18
+}
+
+###
+
+#Update
+PUT http://localhost:8080/students/5
+accept: */*
+Content-Type: application/json
+
+{
+  "name": "New2",
+  "surname": "New2",
+  "age": 188
+}
+
+###
+
+#Delete
+DELETE http://localhost:8080/students/5
+accept: */*
+Content-Type: application/json

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/module1-rest/impl/impl.iml" filepath="$PROJECT_DIR$/module1-rest/impl/impl.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-main-course.iml" filepath="$PROJECT_DIR$/.idea/java-main-course.iml" />
       <module fileurl="file://$PROJECT_DIR$/module1-rest/module1-rest.iml" filepath="$PROJECT_DIR$/module1-rest/module1-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module19-gradle/module19-gradle.iml" filepath="$PROJECT_DIR$/module19-gradle/module19-gradle.iml" />
     </modules>
   </component>
 </project>
