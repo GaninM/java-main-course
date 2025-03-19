@@ -7,4 +7,6 @@
 - [Модуль 10: Generics](https://github.com/GaninM/java-main-course/tree/main/module10-generics)
 - [Модуль 11: Рефлексия](https://github.com/GaninM/java-main-course/tree/main/module11-reflection)
 - Модуль 19: Системы сборки
+    - [Maven](https://github.com/GaninM/java-main-course/tree/main/module19-maven)
+    - [Gradle]()
 - Модуль 20: Основы Unix
