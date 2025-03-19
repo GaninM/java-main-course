@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="module8-file-tree-check" />
         <module name="api (1)" />
         <module name="api (2)" />
         <module name="impl (2)" />
