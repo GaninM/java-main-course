@@ -10,3 +10,5 @@
 .idea/compiler.xml
 /compiler.xml
 /gradle.xml
+.compiler.xml
+.encodings.xml
