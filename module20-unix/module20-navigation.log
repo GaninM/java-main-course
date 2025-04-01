@@ -1,0 +1,37 @@
+Script started on 2025-03-31 19:01:00+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="184" LINES="45"]
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ exch[K[K[Kcho $HOME
+[?2004l/home/vboxuser
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ cd `[K~
+[?2004l[?2004h]0;vboxuser@Ubuntu2: ~[01;32mvboxuser@Ubuntu2[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34msnap[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+[?2004h]0;vboxuser@Ubuntu2: ~[01;32mvboxuser@Ubuntu2[00m:[01;34m~[00m$ mkdir test
+[?2004l[?2004h]0;vboxuser@Ubuntu2: ~[01;32mvboxuser@Ubuntu2[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34msnap[0m  [01;34mTemplates[0m  [01;34mtest[0m  [01;34mVideos[0m
+[?2004h]0;vboxuser@Ubuntu2: ~[01;32mvboxuser@Ubuntu2[00m:[01;34m~[00m$ mv test newTest
+[?2004l[?2004h]0;vboxuser@Ubuntu2: ~[01;32mvboxuser@Ubuntu2[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mnewTest[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34msnap[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+[?2004h]0;vboxuser@Ubuntu2: ~[01;32mvboxuser@Ubuntu2[00m:[01;34m~[00m$ cd newTest
+[?2004l[?2004h]0;vboxuser@Ubuntu2: ~/newTest[01;32mvboxuser@Ubuntu2[00m:[01;34m~/newTest[00m$ date > nowFile
+[?2004l[?2004h]0;vboxuser@Ubuntu2: ~/newTest[01;32mvboxuser@Ubuntu2[00m:[01;34m~/newTest[00m$ ls
+[?2004lnowFile
+[?2004h]0;vboxuser@Ubuntu2: ~/newTest[01;32mvboxuser@Ubuntu2[00m:[01;34m~/newTest[00m$ cp nowFi;e[K[Kle copyOfNowFile
+[?2004l[?2004h]0;vboxuser@Ubuntu2: ~/newTest[01;32mvboxuser@Ubuntu2[00m:[01;34m~/newTest[00m$ ls
+[?2004lcopyOfNowFile  nowFile
+[?2004h]0;vboxuser@Ubuntu2: ~/newTest[01;32mvboxuser@Ubuntu2[00m:[01;34m~/newTest[00m$ ls-;[K[K -l
+[?2004ltotal 8
+-rw-rw-r-- 1 vboxuser vboxuser 32 Mar 31 19:03 copyOfNowFile
+-rw-rw-r-- 1 vboxuser vboxuser 32 Mar 31 19:02 nowFile
+[?2004h]0;vboxuser@Ubuntu2: ~/newTest[01;32mvboxuser@Ubuntu2[00m:[01;34m~/newTest[00m$ touch emptyFile
+[?2004l[?2004h]0;vboxuser@Ubuntu2: ~/newTest[01;32mvboxuser@Ubuntu2[00m:[01;34m~/newTest[00m$ ls -l
+[?2004ltotal 8
+-rw-rw-r-- 1 vboxuser vboxuser 32 Mar 31 19:03 copyOfNowFile
+-rw-rw-r-- 1 vboxuser vboxuser  0 Mar 31 19:04 emptyFile
+-rw-rw-r-- 1 vboxuser vboxuser 32 Mar 31 19:02 nowFile
+[?2004h]0;vboxuser@Ubuntu2: ~/newTest[01;32mvboxuser@Ubuntu2[00m:[01;34m~/newTest[00m$ cd ~
+[?2004l[?2004h]0;vboxuser@Ubuntu2: ~[01;32mvboxuser@Ubuntu2[00m:[01;34m~[00m$ rm -r newTest
+[?2004l[?2004h]0;vboxuser@Ubuntu2: ~[01;32mvboxuser@Ubuntu2[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34msnap[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+[?2004h]0;vboxuser@Ubuntu2: ~[01;32mvboxuser@Ubuntu2[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2025-03-31 19:05:00+00:00 [COMMAND_EXIT_CODE="0"]
