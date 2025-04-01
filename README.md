@@ -9,4 +9,4 @@
 - Модуль 19: Системы сборки
     - [Maven](https://github.com/GaninM/java-main-course/tree/main/module19-maven)
     - [Gradle](https://github.com/GaninM/java-main-course/tree/main/module19-gradle)
-- Модуль 20: Основы Unix
+- [Модуль 20: Основы Unix](https://github.com/GaninM/java-main-course/tree/main/module20-unix)
