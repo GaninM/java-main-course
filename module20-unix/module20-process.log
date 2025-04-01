@@ -1,0 +1,516 @@
+Script started on 2025-03-31 20:07:04+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ ps aux
+[?2004lUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3  23060 13872 ?        Ss   18:39   0:02 /sbin/init sp
+root           2  0.0  0.0      0     0 ?        S    18:39   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    18:39   0:00 [pool_workque
+root           4  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-rc
+root           5  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-sy
+root           6  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-sl
+root           7  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-ne
+root          10  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/0:0H
+root          12  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-mm
+root          13  0.0  0.0      0     0 ?        I    18:39   0:00 [rcu_tasks_kt
+root          14  0.0  0.0      0     0 ?        I    18:39   0:00 [rcu_tasks_ru
+root          15  0.0  0.0      0     0 ?        I    18:39   0:00 [rcu_tasks_tr
+root          16  0.1  0.0      0     0 ?        S    18:39   0:08 [ksoftirqd/0]
+root          17  0.0  0.0      0     0 ?        R    18:39   0:04 [rcu_preempt]
+root          18  0.0  0.0      0     0 ?        S    18:39   0:00 [rcu_exp_par_
+root          19  0.0  0.0      0     0 ?        S    18:39   0:00 [rcu_exp_gp_k
+root          20  0.0  0.0      0     0 ?        S    18:39   0:00 [migration/0]
+root          21  0.0  0.0      0     0 ?        S    18:39   0:00 [idle_inject/
+root          22  0.0  0.0      0     0 ?        S    18:39   0:00 [cpuhp/0]
+root          23  0.0  0.0      0     0 ?        S    18:39   0:00 [kdevtmpfs]
+root          24  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-in
+root          25  1.4  0.0      0     0 ?        I    18:39   1:13 [kworker/u4:1
+root          26  0.0  0.0      0     0 ?        S    18:39   0:00 [kauditd]
+root          27  0.0  0.0      0     0 ?        S    18:39   0:00 [khungtaskd]
+root          28  0.0  0.0      0     0 ?        S    18:39   0:00 [oom_reaper]
+root          30  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-wr
+root          31  0.0  0.0      0     0 ?        S    18:39   0:00 [kcompactd0]
+root          32  0.0  0.0      0     0 ?        SN   18:39   0:00 [ksmd]
+root          33  0.0  0.0      0     0 ?        SN   18:39   0:00 [khugepaged]
+root          34  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-ki
+root          35  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-kb
+root          36  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-bl
+root          37  0.0  0.0      0     0 ?        S    18:39   0:00 [irq/9-acpi]
+root          38  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-tp
+root          39  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-at
+root          40  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-md
+root          41  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-md
+root          42  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-ed
+root          43  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-de
+root          44  0.0  0.0      0     0 ?        S    18:39   0:00 [watchdogd]
+root          46  0.0  0.0      0     0 ?        S    18:39   0:01 [kswapd0]
+root          47  0.0  0.0      0     0 ?        S    18:39   0:00 [ecryptfs-kth
+root          48  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-kt
+root          49  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-ac
+root          50  0.0  0.0      0     0 ?        S    18:39   0:00 [scsi_eh_0]
+root          51  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-sc
+root          52  0.0  0.0      0     0 ?        S    18:39   0:00 [scsi_eh_1]
+root          53  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-sc
+root          58  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-ml
+root          59  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-ip
+root          66  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-ks
+root          68  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/u5:0
+root          81  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-ch
+root         138  0.0  0.0      0     0 ?        S    18:39   0:00 [scsi_eh_2]
+root         139  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-sc
+root         140  0.0  0.0      0     0 ?        S    18:39   0:00 [scsi_eh_3]
+root         141  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-sc
+root         142  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-tt
+root         206  0.0  0.0      0     0 ?        S    18:39   0:04 [jbd2/sda2-8]
+root         207  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-ex
+root         255  0.7  0.6  91880 27284 ?        S<s  18:39   0:38 /usr/lib/syst
+root         324  0.0  0.2  30472  8500 ?        Ss   18:39   0:00 /usr/lib/syst
+root         379  0.0  0.0      0     0 ?        S    18:40   0:00 [psimon]
+systemd+     390  0.0  0.1  17556  7624 ?        Ss   18:40   0:01 /usr/lib/syst
+systemd+     396  0.0  0.3  21804 13328 ?        Ss   18:40   0:00 /usr/lib/syst
+systemd+     406  0.0  0.1  91044  7752 ?        Ssl  18:40   0:00 /usr/lib/syst
+root         552  0.0  0.0      0     0 ?        I<   18:40   0:00 [kworker/R-cr
+avahi        570  0.0  0.1   8664  4452 ?        Ss   18:40   0:00 avahi-daemon:
+message+     572  0.0  0.1  12256  7648 ?        Ss   18:40   0:00 @dbus-daemon 
+gnome-r+     577  0.0  0.4 512804 16516 ?        Ssl  18:40   0:00 /usr/libexec/
+polkitd      589  0.0  0.3 399668 12464 ?        Ssl  18:40   0:00 /usr/lib/polk
+root         591  0.0  0.1 322044  7332 ?        Ssl  18:40   0:00 /usr/libexec/
+root         609  0.0  0.7 1247456 31080 ?       Ssl  18:40   0:01 /usr/lib/snap
+root         612  0.0  0.1 321960  7796 ?        Ssl  18:40   0:00 /usr/libexec/
+root         617  0.0  0.0  18092  2808 ?        Ss   18:40   0:00 /usr/sbin/cro
+root         622  0.0  0.1 318388  6568 ?        Ssl  18:40   0:00 /usr/libexec/
+root         636  0.0  0.2  18128  8920 ?        Ss   18:40   0:00 /usr/lib/syst
+root         637  0.0  0.3 469368 14328 ?        Ssl  18:40   0:00 /usr/libexec/
+syslog       663  1.5  0.1 222564  7540 ?        Ssl  18:40   1:19 /usr/sbin/rsy
+avahi        674  0.0  0.0   8476  1544 ?        S    18:40   0:00 avahi-daemon:
+root         677  0.0  0.4 344992 19224 ?        Ssl  18:40   0:00 /usr/sbin/Net
+root         686  0.0  0.1  17380  6388 ?        Ss   18:40   0:00 /usr/sbin/wpa
+root         730  0.0  0.3 392028 12668 ?        Ssl  18:40   0:00 /usr/sbin/Mod
+root         925  0.0  0.3  46892 12244 ?        Ss   18:40   0:00 /usr/sbin/cup
+root         929  0.0  0.5 120908 22984 ?        Ssl  18:40   0:00 /usr/bin/pyth
+lp           942  0.0  0.1  16832  6924 ?        S    18:40   0:00 /usr/lib/cups
+lp           943  0.0  0.1  16832  6908 ?        S    18:40   0:00 /usr/lib/cups
+lp           944  0.0  0.1  16832  6984 ?        S    18:40   0:00 /usr/lib/cups
+lp           946  0.0  0.1  16832  6984 ?        S    18:40   0:00 /usr/lib/cups
+lp           947  0.0  0.1  16832  6896 ?        S    18:40   0:00 /usr/lib/cups
+lp           948  0.0  0.1  16832  6944 ?        S    18:40   0:00 /usr/lib/cups
+lp           949  0.0  0.1  16832  6924 ?        S    18:40   0:00 /usr/lib/cups
+cups-br+     953  0.0  0.5 268340 20184 ?        Ssl  18:40   0:00 /usr/sbin/cup
+kernoops     957  0.0  0.0  12744  2408 ?        Ss   18:40   0:00 /usr/sbin/ker
+root         961  0.0  0.2 323476  9300 ?        Ssl  18:40   0:00 /usr/sbin/gdm
+kernoops     962  0.0  0.0  12744  2468 ?        Ss   18:40   0:00 /usr/sbin/ker
+root         989  0.0  0.0      0     0 ?        S    18:40   0:00 [psimon]
+rtkit       1029  0.0  0.0  22940  3464 ?        SNsl 18:40   0:00 /usr/libexec/
+colord      1123  0.0  0.3 328736 14520 ?        Ssl  18:40   0:00 /usr/libexec/
+root        1162  0.0  0.2 325328  9240 ?        Ssl  18:40   0:00 /usr/libexec/
+root        1475  0.0  0.2 251248 10472 ?        Sl   18:40   0:00 gdm-session-w
+vboxuser    1482  0.0  0.3  21064 12608 ?        Ss   18:40   0:00 /usr/lib/syst
+vboxuser    1494  0.0  0.0  21456  3796 ?        S    18:40   0:00 (sd-pam)
+vboxuser    1514  0.0  0.4 127156 16352 ?        S<sl 18:40   0:01 /usr/bin/pipe
+vboxuser    1515  0.0  0.2 325176 10272 ?        SLsl 18:40   0:00 /usr/bin/gnom
+vboxuser    1527  0.0  0.1  10944  6560 ?        Ss   18:40   0:01 /usr/bin/dbus
+vboxuser    1560  0.0  0.1 653808  7604 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1570  0.0  0.1 244336  6056 tty2     Ssl+ 18:40   0:00 /usr/libexec/
+vboxuser    1574  0.0  0.4 306876 16716 tty2     Sl+  18:40   0:00 /usr/libexec/
+vboxuser    1622  0.0  0.1 317976  6328 ?        Ssl  18:40   0:00 /usr/libexec/
+root        1638  0.0  0.0   2704  1860 ?        Ss   18:40   0:00 fusermount3 -
+vboxuser    1669  0.0  0.1 162652  6896 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1670  0.0  0.1 100216  5532 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1677  0.0  0.1 322936  7940 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1683  0.0  0.1 543144  7320 ?        Sl   18:40   0:00 /usr/libexec/
+vboxuser    1695  0.0  0.4 676596 18292 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1735  0.0  0.1 382940  7912 ?        Sl   18:40   0:00 /usr/libexec/
+vboxuser    1736 61.1 12.4 3640012 499164 ?      Rsl  18:40  52:55 /usr/bin/gnom
+vboxuser    1751  0.0  0.1   9612  5196 ?        S    18:40   0:00 /usr/bin/dbus
+vboxuser    1811  0.0  0.1 236068  7560 ?        Sl   18:40   0:00 /usr/libexec/
+vboxuser    1823  0.0  0.4 654728 17516 ?        Sl   18:40   0:00 /usr/libexec/
+vboxuser    1845  0.0  2.2 760096 89212 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1854  0.0  0.6 2462404 26784 ?       Sl   18:40   0:00 /usr/bin/gjs 
+vboxuser    1858  0.1  0.3 471072 12296 ?        Ssl  18:40   0:05 /usr/bin/ibus
+vboxuser    1859  0.0  0.1 392188  6612 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1860  0.0  0.4 421516 19648 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1861  0.0  0.3 440332 12240 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1862  0.0  0.1 467536  7916 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1863  0.0  0.4 419860 18796 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1864  0.0  0.6 750200 24560 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1865  0.0  0.5 605872 23488 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1866  0.0  0.2 332296 11332 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1867  0.0  0.1 539752  6628 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1868  0.0  0.1 318228  6324 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1869  0.0  0.2 551856 11612 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1870  0.0  0.2 468220  8184 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1871  0.0  0.2 402308  9840 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1872  0.0  0.4 494572 19312 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1889  0.0  0.1 305624  7348 ?        Sl   18:40   0:00 /usr/libexec/
+vboxuser    1897  0.0  2.6 991012 106640 ?       Sl   18:40   0:00 /usr/libexec/
+vboxuser    1992  0.0  0.2  39128 11888 ?        Ss   18:40   0:00 /snap/snapd-d
+vboxuser    2006  0.0  0.2 471704 11372 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2019  0.0  0.6 555244 24372 ?        Sl   18:40   0:00 /usr/libexec/
+vboxuser    2024  0.0  0.3 424872 15084 ?        Sl   18:40   0:00 /usr/libexec/
+vboxuser    2063  0.0  0.1 245316  7192 ?        Sl   18:40   0:00 /usr/libexec/
+vboxuser    2064  0.0  0.7 429600 29256 ?        Sl   18:40   0:04 /usr/libexec/
+vboxuser    2074  0.0  0.1 319096  7300 ?        Sl   18:40   0:00 /usr/libexec/
+vboxuser    2117  0.0  0.6 702828 24568 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2125  0.0  0.1 398044  8000 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2134  0.0  0.2 471528  9728 ?        Sl   18:40   0:00 /usr/libexec/
+vboxuser    2165  0.0  0.1 318460  6352 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2169  0.0  0.7 429600 30768 ?        Sl   18:40   0:00 /snap/snapd-d
+vboxuser    2174  0.0  0.1 319428  6848 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2180  0.0  0.1 318440  6572 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2191  0.0  0.7 703040 30076 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2236  0.0  0.1 245440  7560 ?        Sl   18:40   0:01 /usr/libexec/
+vboxuser    2260  0.0  0.1 230232  5960 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2270  0.0  0.6 2462396 27028 ?       Sl   18:40   0:00 /usr/bin/gjs 
+vboxuser    2282  0.0  0.1 245008  6604 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2283  0.0  0.2 618268  9484 ?        Sl   18:40   0:00 /usr/libexec/
+vboxuser    2388  0.0  0.3 644744 14856 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2396  0.0  2.1 733088 87316 ?        Ssl  18:40   0:01 /usr/libexec/
+vboxuser    2430  0.0  1.4 2812428 58144 ?       Sl   18:40   0:01 gjs /usr/shar
+vboxuser    2439  0.0  0.6 425908 25344 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2522  2.0 13.8 11800228 554588 ?     Sl   18:41   1:46 /snap/firefox
+vboxuser    2730  0.0  1.2 217584 50136 ?        Sl   18:41   0:00 /snap/firefox
+vboxuser    2770  0.0  2.5 2437152 100908 ?      Sl   18:41   0:03 /snap/firefox
+vboxuser    2775  0.0  1.6 355316 64796 ?        Sl   18:41   0:00 /snap/firefox
+vboxuser    2817  0.0  0.7 576824 31052 ?        Sl   18:41   0:00 /usr/bin/upda
+vboxuser    2827  0.0  3.4 2463120 136908 ?      Sl   18:41   0:02 /snap/firefox
+vboxuser    2907  0.0  0.4 1164212 19604 ?       Sl   18:41   0:00 /usr/bin/snap
+vboxuser    3056  0.0  2.8 2450796 115564 ?      Sl   18:41   0:01 /snap/firefox
+vboxuser    3301  2.6  6.5 6870236 262968 ?      Sl   18:41   2:15 /snap/firefox
+vboxuser    3324  0.1  2.3 2432556 96204 ?       Sl   18:42   0:06 /snap/firefox
+vboxuser    3518  0.0  1.2 217260 49368 ?        Sl   18:42   0:00 /snap/firefox
+vboxuser    3526  0.0  1.9 2403444 77244 ?       Sl   18:42   0:00 /snap/firefox
+vboxuser    3610  0.0  1.9 2404012 76968 ?       Sl   18:42   0:00 /snap/firefox
+vboxuser    3651  0.0  1.9 2404680 76328 ?       Sl   18:42   0:00 /snap/firefox
+vboxuser    3707  1.3 13.9 1462344 559824 ?      Sl   18:42   1:08 /usr/bin/naut
+vboxuser    3749  0.0  0.2 396900  8616 ?        Sl   18:42   0:00 /usr/libexec/
+root        5926  1.9  0.0      0     0 ?        I    19:18   0:58 [kworker/u4:4
+root        6453  2.1  0.0      0     0 ?        I    19:30   0:46 [kworker/u4:0
+root        7567  0.0  0.9 560184 38968 ?        Ssl  19:48   0:00 /usr/libexec/
+root        7883  1.1  0.0      0     0 ?        I    19:48   0:12 [kworker/u4:2
+root        8354  0.0  0.0      0     0 ?        I    19:55   0:00 [kworker/0:1-
+vboxuser    8356  0.0  0.3 122168 12644 ?        S<sl 19:55   0:00 /usr/bin/pipe
+vboxuser    8357  0.0  0.4 415452 18908 ?        S<sl 19:55   0:00 /usr/bin/wire
+root        8394  0.0  0.0      0     0 ?        I<   19:55   0:00 [kworker/0:1H
+root        8673  0.0  0.0      0     0 ?        I    19:59   0:00 [kworker/0:3-
+root        8824  0.3  0.0      0     0 ?        I<   20:02   0:00 [kworker/0:2H
+vboxuser    8888  2.1  4.5 687212 183308 ?       SNl  20:03   0:05 /usr/bin/pyth
+root        9225  2.5  0.0      0     0 ?        I    20:06   0:01 [kworker/u4:3
+vboxuser    9235  2.2  1.3 562008 52944 ?        Ssl  20:06   0:00 /usr/libexec/
+vboxuser    9245  0.0  0.1  19692  5124 pts/0    Ss   20:06   0:00 bash
+vboxuser    9282  0.0  0.0  16972  2308 pts/0    S+   20:07   0:00 script -a mod
+vboxuser    9283  0.0  0.1  19692  5172 pts/1    Ss   20:07   0:00 bash -i
+vboxuser    9301  100  0.1  22420  4620 pts/1    R+   20:07   0:00 ps aux
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ top
+[?2004l[?1h=[?25l[H[2J(B[mtop - 20:07:15 up  1:27,  1 user,  load average: 2.62, 2.93, 2.67(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 197 (B[m[39;49mtotal,(B[m[39;49m[1m   3 (B[m[39;49mrunning,(B[m[39;49m[1m 194 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 20.0 (B[m[39;49mus,(B[m[39;49m[1m 20.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m  0.0 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m 60.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3916.0 (B[m[39;49mtotal,(B[m[39;49m[1m    399.6 (B[m[39;49mfree,(B[m[39;49m[1m   2259.6 (B[m[39;49mused,(B[m[39;49m[1m   1580.8 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m      0.0 (B[m[39;49mtotal,(B[m[39;49m[1m      0.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   1656.4 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND  (B[m[39;49m[K
+(B[m[1m   1736 vboxuser  20   0 3640012 499164 188592 R  90.9  12.4  52:58.14 gnome-s+ (B[m[39;49m[K
+(B[m[1m     25 root      20   0       0      0      0 R   9.1   0.0   1:14.06 kworker+ (B[m[39;49m[K
+(B[m      1 root      20   0   23060  13872   9392 S   0.0   0.3   0:02.56 systemd  (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd (B[m[39;49m[K
+(B[m      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+ (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+ (B[m[39;49m[K
+(B[m      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+ (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+ (B[m[39;49m[K
+(B[m      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+ (B[m[39;49m[K
+(B[m     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.60 kworker+ (B[m[39;49m[K
+(B[m     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+ (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+ (B[m[39;49m[K
+(B[m     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+ (B[m[39;49m[K
+(B[m     15 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+ (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 S   0.0   0.0   0:08.54 ksoftir+ (B[m[39;49m[K
+(B[m     17 root      20   0       0      0      0 I   0.0   0.0   0:04.22 rcu_pre+ (B[m[39;49m[K
+(B[m     18 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_exp+ (B[m[39;49m[K[?1l>[25;1H
+[?12l[?25h[K[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ ps -u $(whoami)
+[?2004l    PID TTY          TIME CMD
+   1482 ?        00:00:00 systemd
+   1494 ?        00:00:00 (sd-pam)
+   1514 ?        00:00:01 pipewire-pulse
+   1515 ?        00:00:00 gnome-keyring-d
+   1527 ?        00:00:01 dbus-daemon
+   1560 ?        00:00:00 xdg-document-po
+   1570 tty2     00:00:00 gdm-wayland-ses
+   1574 tty2     00:00:00 gnome-session-b
+   1622 ?        00:00:00 xdg-permission-
+   1669 ?        00:00:00 gcr-ssh-agent
+   1670 ?        00:00:00 gnome-session-c
+   1677 ?        00:00:00 gvfsd
+   1683 ?        00:00:00 gvfsd-fuse
+   1695 ?        00:00:00 gnome-session-b
+   1735 ?        00:00:00 at-spi-bus-laun
+   1736 ?        00:53:09 gnome-shell
+   1751 ?        00:00:00 dbus-daemon
+   1811 ?        00:00:00 at-spi2-registr
+   1823 ?        00:00:00 gnome-shell-cal
+   1845 ?        00:00:00 evolution-sourc
+   1854 ?        00:00:00 gjs
+   1858 ?        00:00:05 ibus-daemon
+   1859 ?        00:00:00 gsd-a11y-settin
+   1860 ?        00:00:00 gsd-color
+   1861 ?        00:00:00 gsd-datetime
+   1862 ?        00:00:00 gsd-housekeepin
+   1863 ?        00:00:00 gsd-keyboard
+   1864 ?        00:00:00 gsd-media-keys
+   1865 ?        00:00:00 gsd-power
+   1866 ?        00:00:00 gsd-print-notif
+   1867 ?        00:00:00 gsd-rfkill
+   1868 ?        00:00:00 gsd-screensaver
+   1869 ?        00:00:00 gsd-sharing
+   1870 ?        00:00:00 gsd-smartcard
+   1871 ?        00:00:00 gsd-sound
+   1872 ?        00:00:00 gsd-wacom
+   1889 ?        00:00:00 gsd-disk-utilit
+   1897 ?        00:00:00 evolution-alarm
+   1992 ?        00:00:00 snapd-desktop-i
+   2006 ?        00:00:00 gvfs-udisks2-vo
+   2019 ?        00:00:00 goa-daemon
+   2024 ?        00:00:00 gsd-printer
+   2063 ?        00:00:00 ibus-memconf
+   2064 ?        00:00:04 ibus-extension-
+   2074 ?        00:00:00 ibus-portal
+   2117 ?        00:00:00 evolution-calen
+   2125 ?        00:00:00 gvfs-afc-volume
+   2134 ?        00:00:00 goa-identity-se
+   2165 ?        00:00:00 gvfs-mtp-volume
+   2169 ?        00:00:00 snapd-desktop-i
+   2174 ?        00:00:00 gvfs-gphoto2-vo
+   2180 ?        00:00:00 gvfs-goa-volume
+   2191 ?        00:00:00 evolution-addre
+   2236 ?        00:00:01 ibus-engine-sim
+   2260 ?        00:00:00 dconf-service
+   2270 ?        00:00:00 gjs
+   2282 ?        00:00:00 gvfsd-metadata
+   2283 ?        00:00:00 gvfsd-trash
+   2388 ?        00:00:00 xdg-desktop-por
+   2396 ?        00:00:01 xdg-desktop-por
+   2430 ?        00:00:01 gjs
+   2439 ?        00:00:00 xdg-desktop-por
+   2522 ?        00:01:46 firefox
+   2730 ?        00:00:00 Socket Process
+   2770 ?        00:00:03 WebExtensions
+   2775 ?        00:00:00 RDD Process
+   2817 ?        00:00:00 update-notifier
+   2827 ?        00:00:02 Privileged Cont
+   2907 ?        00:00:00 snap
+   3056 ?        00:00:01 Isolated Web Co
+   3301 ?        00:02:15 Isolated Web Co
+   3324 ?        00:00:06 Isolated Servic
+   3518 ?        00:00:00 Utility Process
+   3526 ?        00:00:00 Web Content
+   3610 ?        00:00:00 Web Content
+   3651 ?        00:00:00 Web Content
+   3707 ?        00:01:08 nautilus
+   3749 ?        00:00:00 gvfsd-recent
+   8356 ?        00:00:00 pipewire
+   8357 ?        00:00:00 wireplumber
+   8888 ?        00:00:05 update-manager
+   9235 ?        00:00:00 gnome-terminal-
+   9245 pts/0    00:00:00 bash
+   9282 pts/0    00:00:00 script
+   9283 pts/1    00:00:00 bash
+   9310 pts/1    00:00:00 ps
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ ps aux --sort=-%mem
+[?2004lUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+vboxuser    3707  1.3 13.9 1462344 559824 ?      Sl   18:42   1:08 /usr/bin/naut
+vboxuser    2522  2.0 13.8 11800236 556252 ?     Sl   18:41   1:46 /snap/firefox
+vboxuser    1736 61.2 12.4 3640012 499164 ?      Rsl  18:40  53:21 /usr/bin/gnom
+vboxuser    3301  2.6  6.5 6870180 262488 ?      Sl   18:41   2:16 /snap/firefox
+vboxuser    8888  1.8  4.5 687212 183308 ?       SNl  20:03   0:05 /usr/bin/pyth
+vboxuser    2827  0.0  3.4 2463104 136908 ?      Sl   18:41   0:02 /snap/firefox
+vboxuser    3056  0.0  2.8 2450796 115564 ?      Sl   18:41   0:01 /snap/firefox
+vboxuser    1897  0.0  2.6 991012 106640 ?       Sl   18:40   0:00 /usr/libexec/
+vboxuser    2770  0.0  2.5 2437168 101036 ?      Sl   18:41   0:03 /snap/firefox
+vboxuser    3324  0.1  2.3 2432540 96204 ?       Sl   18:42   0:06 /snap/firefox
+vboxuser    1845  0.0  2.2 760096 89212 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2396  0.0  2.1 733088 87316 ?        Ssl  18:40   0:01 /usr/libexec/
+vboxuser    3526  0.0  1.9 2403444 77244 ?       Sl   18:42   0:00 /snap/firefox
+vboxuser    3610  0.0  1.9 2404012 76968 ?       Sl   18:42   0:00 /snap/firefox
+vboxuser    3651  0.0  1.9 2404680 76328 ?       Sl   18:42   0:00 /snap/firefox
+vboxuser    2775  0.0  1.6 355316 64796 ?        Sl   18:41   0:00 /snap/firefox
+vboxuser    2430  0.0  1.4 2812428 58144 ?       Sl   18:40   0:01 gjs /usr/shar
+vboxuser    9235  1.2  1.3 562140 53072 ?        Ssl  20:06   0:00 /usr/libexec/
+vboxuser    2730  0.0  1.2 217584 50136 ?        Sl   18:41   0:00 /snap/firefox
+vboxuser    3518  0.0  1.2 217260 49368 ?        Sl   18:42   0:00 /snap/firefox
+root        7567  0.0  0.9 560184 38968 ?        Ssl  19:48   0:00 /usr/libexec/
+root         609  0.0  0.7 1247456 31080 ?       Ssl  18:40   0:01 /usr/lib/snap
+vboxuser    2817  0.0  0.7 576824 31052 ?        Sl   18:41   0:00 /usr/bin/upda
+vboxuser    2169  0.0  0.7 429600 30768 ?        Sl   18:40   0:00 /snap/snapd-d
+vboxuser    2191  0.0  0.7 703040 30076 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2064  0.0  0.7 429600 29256 ?        Sl   18:40   0:04 /usr/libexec/
+root         255  0.7  0.6  91880 27284 ?        S<s  18:39   0:38 /usr/lib/syst
+vboxuser    2270  0.0  0.6 2462396 27028 ?       Sl   18:40   0:00 /usr/bin/gjs 
+vboxuser    1854  0.0  0.6 2462404 26784 ?       Sl   18:40   0:00 /usr/bin/gjs 
+vboxuser    2439  0.0  0.6 425908 25344 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2117  0.0  0.6 702828 24568 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1864  0.0  0.6 750200 24560 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2019  0.0  0.6 555244 24372 ?        Sl   18:40   0:00 /usr/libexec/
+vboxuser    1865  0.0  0.5 605872 23488 ?        Ssl  18:40   0:00 /usr/libexec/
+root         929  0.0  0.5 120908 22984 ?        Ssl  18:40   0:00 /usr/bin/pyth
+cups-br+     953  0.0  0.5 268340 20184 ?        Ssl  18:40   0:00 /usr/sbin/cup
+vboxuser    1860  0.0  0.4 421516 19648 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2907  0.0  0.4 1164212 19604 ?       Sl   18:41   0:00 /usr/bin/snap
+vboxuser    1872  0.0  0.4 494572 19312 ?        Ssl  18:40   0:00 /usr/libexec/
+root         677  0.0  0.4 344992 19224 ?        Ssl  18:40   0:00 /usr/sbin/Net
+vboxuser    8357  0.0  0.4 415452 18908 ?        S<sl 19:55   0:00 /usr/bin/wire
+vboxuser    1863  0.0  0.4 419860 18796 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1695  0.0  0.4 676596 18292 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1823  0.0  0.4 654728 17516 ?        Sl   18:40   0:00 /usr/libexec/
+vboxuser    1574  0.0  0.4 306876 16716 tty2     Sl+  18:40   0:00 /usr/libexec/
+gnome-r+     577  0.0  0.4 512804 16516 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1514  0.0  0.4 127156 16352 ?        S<sl 18:40   0:01 /usr/bin/pipe
+vboxuser    2024  0.0  0.3 424872 15084 ?        Sl   18:40   0:00 /usr/libexec/
+vboxuser    2388  0.0  0.3 644744 14856 ?        Ssl  18:40   0:00 /usr/libexec/
+colord      1123  0.0  0.3 328736 14520 ?        Ssl  18:40   0:00 /usr/libexec/
+root         637  0.0  0.3 469368 14328 ?        Ssl  18:40   0:00 /usr/libexec/
+root           1  0.0  0.3  23060 13872 ?        Ss   18:39   0:02 /sbin/init sp
+systemd+     396  0.0  0.3  21804 13328 ?        Ss   18:40   0:00 /usr/lib/syst
+root         730  0.0  0.3 392028 12668 ?        Ssl  18:40   0:00 /usr/sbin/Mod
+vboxuser    8356  0.0  0.3 122168 12644 ?        S<sl 19:55   0:00 /usr/bin/pipe
+vboxuser    1482  0.0  0.3  21064 12608 ?        Ss   18:40   0:00 /usr/lib/syst
+polkitd      589  0.0  0.3 399668 12464 ?        Ssl  18:40   0:00 /usr/lib/polk
+vboxuser    1858  0.1  0.3 471072 12296 ?        Ssl  18:40   0:05 /usr/bin/ibus
+root         925  0.0  0.3  46892 12244 ?        Ss   18:40   0:00 /usr/sbin/cup
+vboxuser    1861  0.0  0.3 440332 12240 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1992  0.0  0.2  39128 11888 ?        Ss   18:40   0:00 /snap/snapd-d
+vboxuser    1869  0.0  0.2 551856 11612 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2006  0.0  0.2 471704 11372 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1866  0.0  0.2 332296 11332 ?        Ssl  18:40   0:00 /usr/libexec/
+root        1475  0.0  0.2 251248 10472 ?        Sl   18:40   0:00 gdm-session-w
+vboxuser    1515  0.0  0.2 325176 10272 ?        SLsl 18:40   0:00 /usr/bin/gnom
+vboxuser    1871  0.0  0.2 402308  9840 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2134  0.0  0.2 471528  9728 ?        Sl   18:40   0:00 /usr/libexec/
+vboxuser    2283  0.0  0.2 618268  9484 ?        Sl   18:40   0:00 /usr/libexec/
+root         961  0.0  0.2 323476  9300 ?        Ssl  18:40   0:00 /usr/sbin/gdm
+root        1162  0.0  0.2 325328  9240 ?        Ssl  18:40   0:00 /usr/libexec/
+root         636  0.0  0.2  18128  8920 ?        Ss   18:40   0:00 /usr/lib/syst
+vboxuser    3749  0.0  0.2 396900  8616 ?        Sl   18:42   0:00 /usr/libexec/
+root         324  0.0  0.2  30472  8500 ?        Ss   18:39   0:00 /usr/lib/syst
+vboxuser    1870  0.0  0.2 468220  8184 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2125  0.0  0.1 398044  8000 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1677  0.0  0.1 322936  7940 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1862  0.0  0.1 467536  7916 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1735  0.0  0.1 382940  7912 ?        Sl   18:40   0:00 /usr/libexec/
+root         612  0.0  0.1 321960  7796 ?        Ssl  18:40   0:00 /usr/libexec/
+systemd+     406  0.0  0.1  91044  7752 ?        Ssl  18:40   0:00 /usr/lib/syst
+message+     572  0.0  0.1  12256  7648 ?        Ss   18:40   0:00 @dbus-daemon 
+systemd+     390  0.0  0.1  17556  7624 ?        Ss   18:40   0:01 /usr/lib/syst
+vboxuser    1560  0.0  0.1 653808  7604 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1811  0.0  0.1 236068  7560 ?        Sl   18:40   0:00 /usr/libexec/
+vboxuser    2236  0.0  0.1 245440  7560 ?        Sl   18:40   0:01 /usr/libexec/
+syslog       663  1.5  0.1 222564  7540 ?        Ssl  18:40   1:19 /usr/sbin/rsy
+vboxuser    1889  0.0  0.1 305624  7348 ?        Sl   18:40   0:00 /usr/libexec/
+root         591  0.0  0.1 322044  7332 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1683  0.0  0.1 543144  7320 ?        Sl   18:40   0:00 /usr/libexec/
+vboxuser    2074  0.0  0.1 319096  7300 ?        Sl   18:40   0:00 /usr/libexec/
+vboxuser    2063  0.0  0.1 245316  7192 ?        Sl   18:40   0:00 /usr/libexec/
+lp           944  0.0  0.1  16832  6984 ?        S    18:40   0:00 /usr/lib/cups
+lp           946  0.0  0.1  16832  6984 ?        S    18:40   0:00 /usr/lib/cups
+lp           948  0.0  0.1  16832  6944 ?        S    18:40   0:00 /usr/lib/cups
+lp           942  0.0  0.1  16832  6924 ?        S    18:40   0:00 /usr/lib/cups
+lp           949  0.0  0.1  16832  6924 ?        S    18:40   0:00 /usr/lib/cups
+lp           943  0.0  0.1  16832  6908 ?        S    18:40   0:00 /usr/lib/cups
+lp           947  0.0  0.1  16832  6896 ?        S    18:40   0:00 /usr/lib/cups
+vboxuser    1669  0.0  0.1 162652  6896 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2174  0.0  0.1 319428  6848 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1867  0.0  0.1 539752  6628 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1859  0.0  0.1 392188  6612 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2282  0.0  0.1 245008  6604 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    2180  0.0  0.1 318440  6572 ?        Ssl  18:40   0:00 /usr/libexec/
+root         622  0.0  0.1 318388  6568 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1527  0.0  0.1  10944  6560 ?        Ss   18:40   0:01 /usr/bin/dbus
+root         686  0.0  0.1  17380  6388 ?        Ss   18:40   0:00 /usr/sbin/wpa
+vboxuser    2165  0.0  0.1 318460  6352 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1622  0.0  0.1 317976  6328 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1868  0.0  0.1 318228  6324 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1570  0.0  0.1 244336  6056 tty2     Ssl+ 18:40   0:00 /usr/libexec/
+vboxuser    2260  0.0  0.1 230232  5960 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1670  0.0  0.1 100216  5532 ?        Ssl  18:40   0:00 /usr/libexec/
+vboxuser    1751  0.0  0.1   9612  5196 ?        S    18:40   0:00 /usr/bin/dbus
+vboxuser    9283  0.0  0.1  19692  5172 pts/1    Ss   20:07   0:00 bash -i
+vboxuser    9245  0.0  0.1  19692  5124 pts/0    Ss   20:06   0:00 bash
+vboxuser    9320 33.3  0.1  22420  4616 pts/1    R+   20:07   0:00 ps aux --sort
+avahi        570  0.0  0.1   8664  4452 ?        Ss   18:40   0:00 avahi-daemon:
+vboxuser    1494  0.0  0.0  21456  3796 ?        S    18:40   0:00 (sd-pam)
+rtkit       1029  0.0  0.0  22940  3464 ?        SNsl 18:40   0:00 /usr/libexec/
+root         617  0.0  0.0  18092  2808 ?        Ss   18:40   0:00 /usr/sbin/cro
+kernoops     962  0.0  0.0  12744  2468 ?        Ss   18:40   0:00 /usr/sbin/ker
+kernoops     957  0.0  0.0  12744  2408 ?        Ss   18:40   0:00 /usr/sbin/ker
+vboxuser    9282  0.0  0.0  16972  2308 pts/0    S+   20:07   0:00 script -a mod
+root        1638  0.0  0.0   2704  1860 ?        Ss   18:40   0:00 fusermount3 -
+avahi        674  0.0  0.0   8476  1544 ?        S    18:40   0:00 avahi-daemon:
+root           2  0.0  0.0      0     0 ?        S    18:39   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    18:39   0:00 [pool_workque
+root           4  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-rc
+root           5  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-sy
+root           6  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-sl
+root           7  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-ne
+root          12  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-mm
+root          13  0.0  0.0      0     0 ?        I    18:39   0:00 [rcu_tasks_kt
+root          14  0.0  0.0      0     0 ?        I    18:39   0:00 [rcu_tasks_ru
+root          15  0.0  0.0      0     0 ?        I    18:39   0:00 [rcu_tasks_tr
+root          16  0.1  0.0      0     0 ?        S    18:39   0:08 [ksoftirqd/0]
+root          17  0.0  0.0      0     0 ?        I    18:39   0:04 [rcu_preempt]
+root          18  0.0  0.0      0     0 ?        S    18:39   0:00 [rcu_exp_par_
+root          19  0.0  0.0      0     0 ?        S    18:39   0:00 [rcu_exp_gp_k
+root          20  0.0  0.0      0     0 ?        S    18:39   0:00 [migration/0]
+root          21  0.0  0.0      0     0 ?        S    18:39   0:00 [idle_inject/
+root          22  0.0  0.0      0     0 ?        S    18:39   0:00 [cpuhp/0]
+root          23  0.0  0.0      0     0 ?        S    18:39   0:00 [kdevtmpfs]
+root          24  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-in
+root          25  1.4  0.0      0     0 ?        I    18:39   1:14 [kworker/u4:1
+root          26  0.0  0.0      0     0 ?        S    18:39   0:00 [kauditd]
+root          27  0.0  0.0      0     0 ?        S    18:39   0:00 [khungtaskd]
+root          28  0.0  0.0      0     0 ?        S    18:39   0:00 [oom_reaper]
+root          30  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-wr
+root          31  0.0  0.0      0     0 ?        S    18:39   0:00 [kcompactd0]
+root          32  0.0  0.0      0     0 ?        SN   18:39   0:00 [ksmd]
+root          33  0.0  0.0      0     0 ?        SN   18:39   0:00 [khugepaged]
+root          34  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-ki
+root          35  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-kb
+root          36  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-bl
+root          37  0.0  0.0      0     0 ?        S    18:39   0:00 [irq/9-acpi]
+root          38  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-tp
+root          39  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-at
+root          40  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-md
+root          41  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-md
+root          42  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-ed
+root          43  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-de
+root          44  0.0  0.0      0     0 ?        S    18:39   0:00 [watchdogd]
+root          46  0.0  0.0      0     0 ?        S    18:39   0:01 [kswapd0]
+root          47  0.0  0.0      0     0 ?        S    18:39   0:00 [ecryptfs-kth
+root          48  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-kt
+root          49  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-ac
+root          50  0.0  0.0      0     0 ?        S    18:39   0:00 [scsi_eh_0]
+root          51  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-sc
+root          52  0.0  0.0      0     0 ?        S    18:39   0:00 [scsi_eh_1]
+root          53  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-sc
+root          58  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-ml
+root          59  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-ip
+root          66  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-ks
+root          68  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/u5:0
+root          81  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-ch
+root         138  0.0  0.0      0     0 ?        S    18:39   0:00 [scsi_eh_2]
+root         139  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-sc
+root         140  0.0  0.0      0     0 ?        S    18:39   0:00 [scsi_eh_3]
+root         141  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-sc
+root         142  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-tt
+root         206  0.0  0.0      0     0 ?        S    18:39   0:04 [jbd2/sda2-8]
+root         207  0.0  0.0      0     0 ?        I<   18:39   0:00 [kworker/R-ex
+root         379  0.0  0.0      0     0 ?        S    18:40   0:00 [psimon]
+root         552  0.0  0.0      0     0 ?        I<   18:40   0:00 [kworker/R-cr
+root         989  0.0  0.0      0     0 ?        S    18:40   0:00 [psimon]
+root        5926  2.0  0.0      0     0 ?        I    19:18   0:59 [kworker/u4:4
+root        6453  2.0  0.0      0     0 ?        I    19:30   0:46 [kworker/u4:0
+root        7883  1.1  0.0      0     0 ?        I    19:48   0:12 [kworker/u4:2
+root        8354  0.0  0.0      0     0 ?        I    19:55   0:00 [kworker/0:1-
+root        8394  0.0  0.0      0     0 ?        I<   19:55   0:00 [kworker/0:1H
+root        8673  0.0  0.0      0     0 ?        I    19:59   0:00 [kworker/0:3-
+root        8824  0.2  0.0      0     0 ?        I<   20:02   0:00 [kworker/0:2H
+root        9225  2.8  0.0      0     0 ?        I    20:06   0:02 [kworker/u4:3
+root        9316  0.0  0.0      0     0 ?        I<   20:07   0:00 [kworker/0:0H
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ exit
+[?2004lexit
+
+Script done on 2025-03-31 20:07:47+00:00 [COMMAND_EXIT_CODE="0"]

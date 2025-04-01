@@ -7,3 +7,12 @@
 /dataSources/
 /dataSources.local.xml
 .gitattributes
+encodings.xml
+compiler.xml
+misc.xml
+=======
+.idea/compiler.xml
+/compiler.xml
+/gradle.xml
+.compiler.xml
+.encodings.xml

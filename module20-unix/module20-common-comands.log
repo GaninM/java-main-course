@@ -1,0 +1,15 @@
+Script started on 2025-03-31 18:57:34+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="184" LINES="45"]
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ echo "CDP JaMP"
+[?2004lCDP JaMP
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ uname -a
+[?2004lLinux Ubuntu2 6.11.0-21-generic #21~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Feb 24 16:52:15 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ pwd
+[?2004l/home/vboxuser/Documents
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ date +"%Y-%m-%d"
+[?2004l2025-03-31
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ date +"%H:%M:%S"
+[?2004l18:59:08
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ ezx[K[Kxit
+[?2004lexit
+
+Script done on 2025-03-31 18:59:22+00:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,78 @@
+Script started on 2025-03-31 20:10:31+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ sudo[K[K[K[Kwhoami
+[?2004lvboxuser
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ passwd
+[?2004lChanging password for vboxuser.
+Current password: 
+New password: 
+BAD PASSWORD: The password fails the dictionary check - it is based on a dictionary word
+New password: 
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ sudo adduser readuser
+[?2004l[sudo] password for vboxuser: 
+info: Adding user `readuser' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `readuser' (1001) ...
+info: Adding new user `readuser' (1001) with group `readuser (1001)' ...
+warn: The home directory `/home/readuser' already exists.  Not touching this directory.
+New password: 
+Retype new password: 
+Sorry, passwords do not match.
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for readuser
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+info: Adding new user `readuser' to supplemental / extra groups `users' ...
+info: Adding user `readuser' to group `users' ...
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ sudo adduser edituser
+[?2004linfo: Adding user `edituser' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `edituser' (1002) ...
+info: Adding new user `edituser' (1002) with group `edituser (1002)' ...
+warn: The home directory `/home/edituser' already exists.  Not touching this directory.
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for edituser
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+info: Adding new user `edituser' to supplemental / extra groups `users' ...
+info: Adding user `edituser' to group `users' ...
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ sudo usermod[K[K[K[K[K[K[Kgroupadd readers
+[?2004lgroupadd: group 'readers' already exists
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ sudo groupadd editors
+[?2004lgroupadd: group 'editors' already exists
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ sudo usermod -aG readers readuser
+[?2004l[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ sudo usermod -aG edot[K[Kitors edituser
+[?2004l[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ mkdir read edit
+[?2004l[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ echo "Read only file" > read/readfile.txt
+[?2004l[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ ecx[Kho "Editable file" > edit/editfile.txt
+[?2004l[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ sudo chown :readers read
+[?2004l[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ sudo chmod 750 read
+[?2004l[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ sod[K[Kudo chown :editors edit
+[?2004l[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ sudo chmod 770 edit
+[?2004l[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ su readuser
+[?2004lPassword: 
+[?2004h]0;readuser@Ubuntu2: /home/vboxuser/Documents[01;32mreaduser@Ubuntu2[00m:[01;34m/home/vboxuser/Documents[00m$ cat read/readfile.txt
+[?2004lRead only file
+[?2004h]0;readuser@Ubuntu2: /home/vboxuser/Documents[01;32mreaduser@Ubuntu2[00m:[01;34m/home/vboxuser/Documents[00m$ echo "New line" > edit/editfile.txt
+[?2004lbash: edit/editfile.txt: Permission denied
+[?2004h]0;readuser@Ubuntu2: /home/vboxuser/Documents[01;32mreaduser@Ubuntu2[00m:[01;34m/home/vboxuser/Documents[00m$ exit
+[?2004lexit
+[?2004h]0;vboxuser@Ubuntu2: ~/Documents[01;32mvboxuser@Ubuntu2[00m:[01;34m~/Documents[00m$ exit
+[?2004lexit
+
+Script done on 2025-03-31 20:18:22+00:00 [COMMAND_EXIT_CODE="1"]
