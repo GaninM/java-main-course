@@ -1,0 +1,50 @@
+#Получение всех пользователей
+GET http://localhost:8080/users
+accept: */*
+Content-Type: application/json
+
+
+###
+
+
+#Получение пользователя по Id
+GET http://localhost:8080/users/1
+accept: */*
+Content-Type: application/json
+
+
+###
+
+
+#Создание нового пользователя
+POST http://localhost:8080/users
+accept: */*
+Content-Type: application/json
+
+{
+  "name": "NewUser",
+  "email": "newUser@mail.ru"
+}
+
+
+###
+
+
+#Изменение пользователя
+PUT http://localhost:8080/users/4
+accept: */*
+Content-Type: application/json
+
+{
+"name": "NewUserNewName",
+"email": "newUserNewEmail@mail.ru"
+}
+
+
+###
+
+
+#Удаление пользователя
+DELETE http://localhost:8080/users/4
+accept: */*
+Content-Type: application/json
